@@ -33,7 +33,7 @@ export default function Index() {
                         <hr />
                     </div>
                 </header>
-                <div className=" row mx-2">
+                <div className=" row mx-2" style={{ fontFamily: "Georgia,serif" }}>
                     <div className="col-xs-10 col-md-8 bg-white">
                         <img id="metages" className="float-left p-3" src="Assets/images/20200909_115942.png" alt="my-picture" />
                         {/* <h4>Hello! My Name is Metages Worku</h4> */}
@@ -42,7 +42,7 @@ export default function Index() {
                         good at working with a team and communicating effectively in problem solving and known for being
                         detail-oriented. As a new developer I believe in updating myself with the latest technologies
                         trending in the industry and i enjoy learning new skills.
-                </p>
+                         </p>
 
                         <p>Please visit my <Link to="./portfolio">portfolio page</Link> to see recent projects.</p>
                         <a href="./Assets/resume.pdf">My resume</a>

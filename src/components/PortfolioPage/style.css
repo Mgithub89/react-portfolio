@@ -11,3 +11,9 @@
     height: 350px;
     width: 350px;
 }
+
+h1,
+.navbar-brand,
+h5 {
+    font-family: Georgia,serif
+}
