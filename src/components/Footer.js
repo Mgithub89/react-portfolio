@@ -14,15 +14,15 @@ export default function Footer() {
         <div class="icons">
 
                     <a href="https://www.facebook.com/metages.worku" target="_blank">
-                        <i class="fab fa-facebook "></i>
+                        <i class="fab fa-facebook ml-3 "></i>
                     </a>
 
                     <a href="https://www.linkedin.com/in/metages-worku-6a962a1b5/" target="_blank">
-                        <i class="fab fa-linkedin "></i>
+                        <i class="fab fa-linkedin ml-3 "></i>
                     </a>
 
                     <a href="https://github.com/Mgithub89" target="_blank">
-                        <i class="fab fa-github "></i>
+                        <i class="fab fa-github ml-3"></i>
                     </a>
                 </div>
             </footer>
