@@ -3,7 +3,7 @@ import Project from "../Project";
 import "./style.css";
 import { Link, useLocation } from "react-router-dom";
 
-export default function Index() {
+export default function Home() {
     return (
 
         <div style={{

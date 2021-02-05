@@ -24,7 +24,7 @@ export default function Navbar() {
                             <Link className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"} to="./portfolio">Portfolio</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className={location.pathname === "/Index" ? "nav-link active" : "nav-link"} to="./Index">About</Link>
+                            <Link className={location.pathname === "/Home" ? "nav-link active" : "nav-link"} to="./Home">Home</Link>
                         </li>
                     </ul>
                 </div>
