@@ -46,6 +46,9 @@ export default function Home() {
 
                         <p>Please visit my <Link to="./portfolio">portfolio page</Link> to see recent projects.</p>
                         <a href="./Assets/resume.pdf">My resume</a>
+                        <p>
+                            <Link to="./contact">Contact <span class="sr-only">(current)</span></Link>
+                        </p>
                     </div>
                 </div>
             </section>

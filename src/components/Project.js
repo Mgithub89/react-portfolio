@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link, useLocation } from "react-router-dom";
 
 export default function Project() {
     return (
@@ -7,7 +8,7 @@ export default function Project() {
 
             <div class=" row">
                 <div class="col-sm-4">
-                    <div class="card">
+                    <div class="card bg-info">
                         <div class="card-body">
                             <figure class="figure ">
                                 <h4 style={{ fontFamily: "Georgia,serif" }}>Weather-Dashboard</h4>
@@ -20,7 +21,7 @@ export default function Project() {
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="card">
+                    <div class="card bg-info">
                         <div class="card-body">
                             <figure class="figure">
                                 <h4 style={{ fontFamily: "Georgia,serif" }}>Project2-DigitalElf</h4>
@@ -33,7 +34,7 @@ export default function Project() {
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="card">
+                    <div class="card bg-info">
                         <div class="card-body">
                             <figure class="figure">
                                 <h4 style={{ fontFamily: "Georgia,serif" }}>Project1-!Bored</h4>
