@@ -1,0 +1,10 @@
+#portfolio {
+    background-color: darkcyan;
+    max-width: 70%;
+    /* margin: 40px 20px; */
+}
+
+.figure-img {
+    height: 350px;
+    width: 350px;
+}
