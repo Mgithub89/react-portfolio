@@ -10,15 +10,17 @@ export default function Footer() {
 
         }}>
             <footer class="bg-dark text-muted text-center py-2">
-                copyright &copy 2020 Metages
+                copyright &copy 2021 Metages
         <div class="icons">
 
                     <a href="https://www.facebook.com/metages.worku" target="_blank">
                         <i class="fab fa-facebook "></i>
                     </a>
+
                     <a href="https://www.linkedin.com/in/metages-worku-6a962a1b5/" target="_blank">
                         <i class="fab fa-linkedin "></i>
                     </a>
+
                     <a href="https://github.com/Mgithub89" target="_blank">
                         <i class="fab fa-github "></i>
                     </a>

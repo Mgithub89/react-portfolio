@@ -1,6 +1,7 @@
 #portfolio {
-    background-color: darkcyan;
+    background-image:url(https://i.pinimg.com/originals/b7/2e/9e/b72e9e8f20e6b9199ed83f393e750c0a.jpg);
     max-width: 70%;
+    background-size: "cover",
     /* margin: 40px 20px; */
 }
 

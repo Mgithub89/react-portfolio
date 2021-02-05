@@ -5,7 +5,7 @@ export default function Contact() {
     return (
         <div style={{
 
-            backgroundImage: "url(https://image.shutterstock.com/image-illustration/black-white-abstract-background-diamond-260nw-691648363.jpg)",
+            backgroundImage: "url(https://i.pinimg.com/originals/b7/2e/9e/b72e9e8f20e6b9199ed83f393e750c0a.jpg)",
             backgroundSize: "cover",
             margin: "0 0 100px"
 
