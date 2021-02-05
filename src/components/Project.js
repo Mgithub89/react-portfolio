@@ -3,7 +3,7 @@ import React from 'react'
 export default function Project() {
     return (
         <div>
-            <h2>Sample Projects.</h2>
+            <h2> Projects.</h2>
 
             <div class=" row">
                 <div class="col-sm-4">
