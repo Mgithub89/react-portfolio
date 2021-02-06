@@ -1,0 +1,50 @@
+[
+    {
+        "src": "Assets/images/weather-app.PNG",
+        "href": "https://mgithub89.github.io/Weather-Dashboard/",
+        "title": "Weather App",
+        "discription": "A simple Weather-dashboard application that allows the user to see the weather outlook for multiple cities"
+    },
+    {
+        "src": "Assets/images/Project1-!Bored.PNG",
+        "href": "https://mgithub89.github.io/UWB-ActivityApp/",
+        "title": "Activity App",
+        "discription": "Project-1,This app would access your current location and based on the weather, the app would recommend best activity that you do."
+    },
+    {
+        "src": "Assets/images/Project2.PNG",
+        "href": "https://fast-anchorage-28495.herokuapp.com/",
+        "title": "Digital Elf",
+        "discription": "Project-2, App that makes it easy for users to create and view other people's wish list for Christmas or holiday presents"
+    },
+    {
+        "src": "Assets/images/Day planner.PNG",
+        "href": "https://mgithub89.github.io/Work-Day-Scheduler/",
+        "title": "Day Planner",
+        "discription": "A simple daily planner application that allows the user to save relevant events for each standard business hour of the day to manage time effectively."
+    },
+    {
+        "src": "Assets/images/password generator.PNG",
+        "href": "https://mgithub89.github.io/Password-Generator/",
+        "title": "Password-Generator",
+        "discription": "App that generates a random password that provieds greater security based on a user-selected criteria."
+    },
+    {
+        "src": "Assets/images/BudgetAppDemo.gif",
+        "href": "https://radiant-beyond-19936.herokuapp.com/",
+        "title": "PWA Budget-Tracker",
+        "discription": "A Budget Tracker App to track your withdrawals and deposits with or without a data/internet connection."
+    },
+    {
+        "src": "Assets/images/quiz.PNG",
+        "href": "https://mgithub89.github.io/CodeQuiz-Game/",
+        "title": "Code-Quiz",
+        "discription": "A timed coding quiz application with multiple questions that stores user initials and score in the local storage "
+    },
+    {
+        "src": "Assets/images/Eat.PNG",
+        "href": "https://evening-dawn-38535.herokuapp.com/",
+        "title": "Eat-Da-Burger",
+        "discription": "A burger logger app with MySQL,Node,Express,Handlebars and homemade ORM."
+    }
+]

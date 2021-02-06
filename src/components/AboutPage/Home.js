@@ -1,5 +1,5 @@
 import React from 'react'
-import Project from "../Project";
+import Sampleproject from "../Sampleproject";
 import "./style.css";
 import { Link, useLocation } from "react-router-dom";
 
@@ -52,7 +52,7 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-            <Project />
+            <Sampleproject />
         </div>
 
 

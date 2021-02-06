@@ -1,7 +1,13 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import "./style.css";
+import portfolio from "../../portfolio.json";
 
-export default function portfolio() {
+export default function Portfolio() {
+    const [data, setData] = useState([]);
+    useEffect(() => {
+        setData(portfolio)
+    }, [data])
+
     return (
 
         <main class="container m-5 p-5" id="portfolio" >
@@ -15,25 +21,43 @@ export default function portfolio() {
             </div>
 
             <div class="row">
-                <div class="col-lg-6">
-                    <figure class="figure ">
-                        <h4>Weather-Dashboard</h4>
-                        <a href="https://mgithub89.github.io/Weather-Dashboard/" class="streched-link" target="-blank">
-                            <img src="Assets/images/weather-app.PNG" class="figure-img img-fluid pro" alt="image3" />
-                        </a>
-                    </figure>
-                </div>
-                <div class="col-lg-6">
+                {data.map(item =>
+                    <div class="col-lg-4">
+                        <div class="card bg-info">
+                            <div class="card-body">
+                                <figure class="figure ">
+                                    <h4 style={{ fontFamily: "Georgia,serif" }}>{item.title}</h4>
+                                    <p style={{ fontFamily: "Georgia,serif" }}>{item.discription}</p>
+
+                                    <a href={item.href} class="streched-link" target="-blank">
+                                        <img style={{ height: "250px", width: "250px" }} src={item.src} class="figure-img img-fluid" alt="image3" />
+                                    </a>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                )}
+            </div>
+            {/* // <div class="col-lg-6">
+                //     <figure class="figure ">
+                //         <h4>Weather-Dashboard</h4>
+                //         <a href="https://mgithub89.github.io/Weather-Dashboard/" class="streched-link" target="-blank">
+                //             <img src="Assets/images/weather-app.PNG" class="figure-img img-fluid pro" alt="image3" />
+                //         </a>
+                //     </figure>
+                // </div> */}
+
+            {/* <div class="col-lg-6">
                     <figure class="figure">
                         <h4>Day planner</h4>
                         <a href="https://mgithub89.github.io/Work-Day-Scheduler/" class="streched-link" target="-blank">
                             <img src="Assets/images/Day planner.PNG" class="figure-img img-fluid pro" alt="image2" />
                         </a>
                     </figure>
-                </div>
-            </div>
+                </div> */}
 
-            <div class="row">
+
+            {/* <div class="row">
                 <div class="col-lg-6">
                     <figure class="figure">
                         <h4>Password-Generator</h4>
@@ -82,7 +106,7 @@ export default function portfolio() {
                         </figure>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
         </main>
 
