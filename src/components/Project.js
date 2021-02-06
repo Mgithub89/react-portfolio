@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link, useLocation } from "react-router-dom";
+// import { Link, useLocation } from "react-router-dom";
 import portfolio from "../portfolio.json";
 
 class Project extends Component {
@@ -24,11 +24,9 @@ class Project extends Component {
                                         <p style={{ fontFamily: "Georgia,serif" }}>{item.discription}</p>
 
                                         <a href={item.href} class="streched-link" target="-blank">
-                                            <img style={{ height: "250px", width: "250px" }} src={item.src} class="figure-img img-fluid" alt="image3" />
+                                            <img style={{ height: "350px", width: "350px" }} src={item.src} class="figure-img img-fluid" alt="image3" />
                                         </a>
                                     </figure>
-
-
                                 </div>
                             </div>
                         </div>
