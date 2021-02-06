@@ -9,7 +9,6 @@ View the [Deloyed App]()
 ## Description
  Portfolio App Using React.
  
-
 ## Table Of Contents 
 * [Installation](#Installation)
 * [Usage](#Usage)
