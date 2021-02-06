@@ -15,7 +15,7 @@ export default function Portfolio() {
                 <div class="col">
                     <h1 class="text-info font-weight-bold">Portfolio</h1>
                     <hr />
-                    <h5>Click ScreenShoot images to view deployed app.</h5>
+                    <h5>Click Screenshot images to view deployed app.</h5>
                     <br />
                 </div>
             </div>
